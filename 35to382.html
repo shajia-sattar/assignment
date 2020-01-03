@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+        
+      function Factorialize(n) {
+        if(n>0 && n<=1){
+            return 1;
+        }
+        else{
+            return n * Factorialize(n-1);
+        }
+
+          }
+      var n = parseInt(prompt("enter a number"));
+      var result = Factorialize(n)
+       alert("the factor "+ result);
+        
+        
+        </script>
+    </head>
+</html>

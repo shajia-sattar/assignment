@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script>
+
+
+     var str =  ("city of light");
+
+     function capatalizeletter(str) {
+         
+     var splitInput=input.split(" ");
+     var spaceEnd="";
+     var space=" ";
+     for(var i=0; i<splitInput.length; i++){
+     
+     spaceEnd+= splitInput[i].charAt(0).toUpperCase + splitInput[i].slice(1).toLowerCase() + space;
+
+     }
+
+     return spaceEnd;
+ } 
+  var result = capatalizeletter(str); 
+  console.log(result);
+        </script>
+    </head>
+</html>
